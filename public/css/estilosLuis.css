@@ -1,0 +1,270 @@
+.nav .header{
+    color: #4b646f;
+    background: #1a2226;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+}
+
+.highlight{
+    color: #000;
+    background-color: #fff7d4;
+}
+    
+.hr-lqt {
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+}
+.label-author {
+    background-color: #89bec0;
+    font-weight: 200;
+    font-size: 80%;
+}
+.label-tags {
+    background-color: #e5c278;
+    font-weight: 200;
+    font-size: 80%;
+}
+
+.label-success-lqt {
+    background-color: #53e69d;
+    font-weight: 200;
+    font-size: 80%;
+}
+.label-warning-lqt {
+    background-color: #f0ad4e;
+    font-weight: 200;
+    font-size: 80%;
+}
+.label-danger-lqt {
+    background-color: #ed6262;
+    font-weight: 200;
+    font-size: 80%;
+}
+
+/* Configuracion de multi select */
+.select2-container-multi .select2-choices {
+    border: 1px solid #e4e7ea;
+}
+.select2-dropdown-open.select2-drop-above .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choices {
+    border: 1px solid #565656;
+}
+.select2-container-multi.select2-container-active .select2-choices {
+    border: 1px solid #565656;
+}
+.has-error .select2-container-multi .select2-choices {
+    border-bottom: 1px solid #ff7676;
+}
+.has-error .select2-container-multi .select2-choices {
+    border-color: #ff7676;
+    box-shadow: none!important;
+}
+.has-error .select2-container-multi.select2-container-active .select2-choices{
+    border-bottom: 1px solid #ff7676;
+}
+.has-error .select2-container-multi.select2-container-active .select2-choices{
+    border-color: #ff7676;
+    box-shadow: none!important;
+}
+/* Fin config */
+.table-center>tbody>tr>td, .table-center>tbody>tr>th, .table-center>tfoot>tr>td, .table-center>tfoot>tr>th, .table-center>thead>tr>td, .table-center>thead>tr>th{
+    vertical-align: middle;
+}
+
+.table-center>tbody>tr>td, .table-center>tbody>tr>th, .table-center>tfoot>tr>td, .table-center>tfoot>tr>th, .table-center>thead>tr>td, .table-center>thead>tr>th{
+    text-align: center;
+}
+.table-striped>tbody>tr>td, .table-striped>tbody>tr>th, .table-striped>tfoot>tr>td, .table-striped>tfoot>tr>th, .table-striped>thead>tr>td, .table-striped>thead>tr>th {
+    padding: 8px;
+}
+
+/* Estilo input y select dataTable */
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    height: 30px;
+    max-width: 100%;
+    padding: 7px 10px;
+}
+
+.dataTables_length select {
+    height: 30px;
+    border: 1px solid #e4e7ea;
+    border-radius: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 3px;
+}
+
+.footer-boton{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg-title h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+/*Arreglo de la fecha en el aside*/
+.sidebar .arrow {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+/* Estilo panel celeste oscuro*/
+.panel-celeste-lqt {
+    border-color: #7bc1e1;
+}
+.panel-celeste-lqt .panel-heading {
+    border-color: #7bc1e1;
+    color: #fff;
+    background-color: #58b8e4;
+}
+
+
+/* Panel verde */
+.panel-verde-jmc {
+    border-color: #04B404;
+}
+
+.panel-verde-jmc .panel-heading {
+    border-color: #04B404;
+    color: #fff;
+    background-color: #40FF00;
+}
+/* Panel anaranjado */
+.panel-anaranjado-jmc {
+    border-color: #DF7401;
+
+}
+.panel-anaranjado-jmc .panel-heading {
+    border-color: #FE9A2E;
+    color: #fff;
+    background-color: #FE642E;
+}
+
+/* Estilo boton de paginate celeste oscuro*/
+.panel-celeste-lqt .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #3c9bc6;
+    background-color: #3c9bc6;
+}
+
+/*Estilo boton verde-oscuro*/
+.btn-verde-lqt {
+    background: #55af69;
+    border: 1px solid #3fa371;
+   	color: #fff;
+}
+
+.btn-rojo-lqt {
+    background: #c65555;
+    border: 1px solid #da5656;
+    color: #fff;
+}
+
+
+.panel-verde-lqt .panel-heading{
+    border-color: #55af69;
+    color: #fff;
+    background-color: #55af69;
+}
+
+.panel-verde-claro-lqt .panel-heading{
+    border-color: #9eca86;
+    color: #fff;
+    background-color: #9eca86;
+}
+.btn-verde-claro-lqt {
+    background: #80b97a;
+    border: 1px solid #87a975;
+    color: #fff;
+}
+
+.panel-crema-lqt .panel-heading{
+    border-color: #55af69;
+    color: #fff;
+    background-color: #55af69;
+}
+.btn-crema-lqt {
+    background: #ebbc83;
+    border: 1px solid #ebbc83;
+    color: #fff;
+}
+
+.panel-morado-lqt .panel-heading {
+    border-color: #82a1e3;
+    color: #fff;
+    background-color: #82a1e3;
+}
+.btn-morado-lqt {
+    background: #82a1e3;
+    border: 1px solid #577cca;
+    color: #fff;
+}
+
+.tab-content-lqt{
+    margin-top: 0px;
+}
+
+.panel-border {
+    border: 1px solid #e3e3e3;
+}
+
+/* No funciona , asi que puse el estilo en la misma vista*/
+.panel-body-simple{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.content-wrap-tesis section {
+    display: none;
+    margin: 0 auto;
+    padding: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 150px;
+}
+
+.row-form {
+    padding: 0px 15px;
+}
+
+.cargando-img {
+    text-align: center;
+    position: relative;
+}
+
+.btn-pdf-lqt {
+    background: #d65a4c;
+    border: 1px solid #e4e7ea;
+    color: #fff;
+}
+.btn-excel-lqt {
+    background: #7dd891;
+    border: 1px solid #7dd891;
+    color: #443838;
+}
+.btn-pdf-lqt {
+    background: #ef7769;
+    border: 1px solid #e4e7ea;
+    color: #443838;
+}
+.btn-pdf-view-lqt {
+    background: #e7c693;
+    border: 1px solid #e4e7ea;
+    color: #443838;
+}
+
+.search-settings {
+    padding: 19px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+}
